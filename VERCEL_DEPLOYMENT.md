@@ -1,6 +1,7 @@
 # Deploy Your Portfolio to Vercel - Step by Step
 
 ## Prerequisites
+
 - GitHub account (for easier deployment)
 - Vercel account
 
@@ -52,6 +53,7 @@ git push -u origin main
 ## Step 4: Get Your Live URL
 
 After deployment:
+
 - Vercel will show your live URL (like: `https://portfolio-abc123.vercel.app`)
 - This is your **public portfolio link**!
 - Share this URL with employers, clients, etc.
@@ -78,6 +80,7 @@ git push
 ```
 
 ## Your Vercel Dashboard
+
 - URL: https://vercel.com/dashboard
 - View deployment logs
 - See live analytics
@@ -86,16 +89,19 @@ git push
 ## Troubleshooting
 
 **If deployment fails:**
+
 1. Check that `index.html` exists in root directory ✅
 2. All image/video files are in the same folder ✅
 3. No broken links in HTML ✅
 4. File permissions allow reading ✅
 
 **If images don't load:**
+
 - Verify all image paths in `index.html` are correct
 - Use relative paths (not absolute paths)
 
 ## Performance Benefits
+
 ✅ Lightning-fast global CDN
 ✅ Automatic HTTPS/SSL
 ✅ Zero downtime deployments
@@ -105,12 +111,14 @@ git push
 ## Next Steps After Deployment
 
 1. **Share your portfolio link:**
+
    - LinkedIn profile
    - Resume
    - Job applications
    - Email signature
 
 2. **Keep portfolio updated:**
+
    - Add new projects
    - Update certificates
    - Modify content
